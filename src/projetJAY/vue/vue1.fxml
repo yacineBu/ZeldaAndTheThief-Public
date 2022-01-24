@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane fx:id="paneJeu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" styleClass="background" stylesheets="@dark.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetJAY.controleur.Controleur">
+   <children>
+   <ImageView fx:id="linkDeLaVue" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ressources/LinkBas.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="inventaire" layoutX="14.0" layoutY="246.0" prefHeight="14.0" prefWidth="142.0" spacing="3.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="40.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="40.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="40.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="40.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="40.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="40.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="40.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="40.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="40.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="40.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="40.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="40.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Rectangle>
+         </children>
+      </HBox>
+   </children>
+</Pane>
